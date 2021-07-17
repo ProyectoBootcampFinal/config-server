@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ProyectoBootcampFinal/config-data
+          username: msaferna@everis.com
+          password: MiGuEl@2021
+  application:
+    name: config-service
+  security:
+    user:
+      name: root
+      password: s3cr3t
