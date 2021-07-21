@@ -6,7 +6,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ProyectoBootcampFinal/config-data
+          uri: https://github.com/ProyectoBootcampFinal/config-data.git
+          default-label: main
           username: msaferna@everis.com
           password: MiGuEl@2021
   application:
